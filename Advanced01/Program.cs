@@ -1,4 +1,5 @@
 ﻿using Microsoft.VisualBasic;
+using System.Collections.ObjectModel;
 using System.Data;
 using System.Data.Common;
 using System.Numerics;
@@ -270,6 +271,36 @@ namespace Advanced01
 
             #endregion
 
+            #region Q17
+
+            //            What is the difference between covariance and contravariance?
+
+            //            Covariance(out)
+
+            //Enables using a more derived type than originally specified.
+
+            //Preserves assignment compatibility(e.g., assigning a derived type collection to a base type collection reference).
+
+            //Restricted exclusively to output positions(method return values).
+
+            //C# Keyword: out
+
+            //Common Example: Assigning IEnumerable<string> to IEnumerable<object>.
+
+            //                Contravariance(in)
+
+            //Enables using a less derived(base) type than originally specified.
+
+            //Reverses assignment compatibility(e.g., assigning a base type interface to a derived type interface reference).
+
+            //Restricted exclusively to input positions(method parameter arguments).
+
+            //C# Keyword: in
+
+            //Common Example: Assigning IComparer<object> to IComparer<string>.
+
+
+            #endregion
 
 
 

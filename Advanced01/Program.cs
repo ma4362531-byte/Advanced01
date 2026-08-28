@@ -97,6 +97,19 @@ namespace Advanced01
             //} 
             #endregion
 
+            #region Q 6
+            //    // What is a generic interface? Write IRepository<T>.
+
+            //    Generic Interface: An interface defined with generic type parameters that enforces a standardized contract
+            //    (such as Data Access operations) for any entity type.
+
+            //    public interface IRepository<T>
+            //{
+            //    void Add(T entity);
+            //    T GetById(int id);
+            //    IEnumerable<T> GetAll();
+            //} 
+            #endregion
 
 
 

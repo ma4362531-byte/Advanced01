@@ -1,4 +1,5 @@
-﻿using System.Data;
+﻿using Microsoft.VisualBasic;
+using System.Data;
 using System.Data.Common;
 using System.Numerics;
 using System.Reflection.Metadata;
@@ -188,7 +189,23 @@ namespace Advanced01
             //} 
             #endregion
 
+            #region Q12
 
+            //            // How do you apply multiple constraints? Write an example.
+
+            //            Multiple Constraints: Applied using comma-separated constraints for a single parameter.
+
+            //Order Rule: The class or struct constraint must come first, followed by interface
+            //            constraints, and new () must be last.
+
+            //            public class AdvancedHandler<T> where T : Entity, IComparable<T>, new()
+            //        {
+            //            public T Process(T item)
+            //            {
+            //                return new T();
+            //            }
+            //        } 
+            #endregion
 
 
 

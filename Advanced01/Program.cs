@@ -45,6 +45,29 @@ namespace Advanced01
             //} 
             #endregion
 
+            #region Q 3
+            //    //What are multiple type parameters? Write Pair<TKey, TValue>.
+
+            //    Multiple Type Parameters: The capability of generics to accept more than one type placeholder(e.g., < TKey, TValue >), allowing classes or 
+            //        methods to manage related elements of different types concurrently.
+
+            //        public class Pair<TKey, TValue>
+            //{
+            //    public TKey Key { get; set; }
+            //    public TValue Value { get; set; }
+
+            //    public Pair(TKey key, TValue value)
+            //    {
+            //        Key = key;
+            //        Value = value;
+            //    }
+            //} 
+            #endregion
+
+
+
+
+
 
 
 

@@ -1,4 +1,6 @@
-﻿using System.Numerics;
+﻿using System.Data;
+using System.Numerics;
+using System.Reflection.Metadata;
 using System.Runtime.Intrinsics.X86;
 using System.Timers;
 using static System.Runtime.InteropServices.JavaScript.JSType;
@@ -110,6 +112,19 @@ namespace Advanced01
             //    IEnumerable<T> GetAll();
             //} 
             #endregion
+
+            #region Q 7
+            // What is the 'struct' constraint? Write an example.
+
+            //    where T : struct Constraint : Restricts the type parameter T to non-nullable value types
+            //    (e.g., int, double, bool, or custom structs).
+
+            //    public class ValueContainer<T> where T : struct
+            //{
+            //    public T Value { get; set; }
+            //} 
+            #endregion
+
 
 
 

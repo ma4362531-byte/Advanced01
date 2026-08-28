@@ -138,7 +138,20 @@ namespace Advanced01
             //} 
             #endregion
 
+            #region Q9
+            // What is the 'new()' constraint? Write an example.
 
+            //        where T : new () Constraint: Requires the type argument to have a public parameterless constructor, 
+            //        enabling instantiation inside the generic class using new T().
+
+            //    public class Factory<T> where T : new()
+            //{
+            //    public T CreateInstance()
+            //    {
+            //        return new T();
+            //    }
+            //} 
+            #endregion
 
 
 

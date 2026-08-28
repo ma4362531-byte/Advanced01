@@ -256,7 +256,19 @@ namespace Advanced01
             //} 
             #endregion
 
+            #region Q16
+            //            What is contravariance? Explain the 'in' keyword.
 
+            //            Contravariance: Enables using a less derived(more generic) type than originally specified. It applies exclusively to input values(parameter types).
+
+            //in Keyword: Applied to a generic type parameter to declare it as contravariant.
+
+            //                public interface IConsumer<in T>
+            //        {
+            //            void Consume(T input); 
+            //        }
+
+            #endregion
 
 
 

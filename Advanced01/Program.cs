@@ -1,5 +1,6 @@
 ﻿using Microsoft.VisualBasic;
 using System.Collections.ObjectModel;
+using System.ComponentModel;
 using System.Data;
 using System.Data.Common;
 using System.Diagnostics.Metrics;
@@ -328,6 +329,62 @@ namespace Advanced01
 
             #endregion
 
+            #region Q20
+            //    // Complete Exercise -Create a generic Cache < TKey, TValue> with Add, Get, Remove, Contains, and expiration support.
+
+            //    public class CacheItem<TValue>
+            //{
+            //    public TValue Value { get; set; }
+            //    public DateTime ExpirationTime { get; set; }
+
+            //    public bool IsExpired => DateTime.UtcNow > ExpirationTime;
+            //}
+
+            //public class Cache<TKey, TValue>
+            //{
+            //    private readonly Dictionary<TKey, CacheItem<TValue>> _storage = new Dictionary<TKey, CacheItem<TValue>>();
+
+            //    public void Add(TKey key, TValue value, TimeSpan timeToLive)
+            //    {
+            //        _storage[key] = new CacheItem<TValue>
+            //        {
+            //            Value = value,
+            //            ExpirationTime = DateTime.UtcNow.Add(timeToLive)
+            //        };
+            //    }
+
+            //    public bool Contains(TKey key)
+            //    {
+            //        if (!_storage.TryGetValue(key, out var item))
+            //        {
+            //            return false;
+            //        }
+
+            //        if (item.IsExpired)
+            //        {
+            //            _storage.Remove(key); // Lazy cleanup
+            //            return false;
+            //        }
+
+            //        return true;
+            //    }
+
+            //    public TValue Get(TKey key)
+            //    {
+            //        if (Contains(key))
+            //        {
+            //            return _storage[key].Value;
+            //        }
+
+            //        return default;
+            //    }
+
+            //    public bool Remove(TKey key)
+            //    {
+            //        return _storage.Remove(key);
+            //    }
+            //} 
+            #endregion
 
 
 

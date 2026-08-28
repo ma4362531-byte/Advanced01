@@ -153,7 +153,20 @@ namespace Advanced01
             //} 
             #endregion
 
+            #region Q10
+            //    // What is the interface constraint? Write an example.
 
+            //    Interface Constraint: Restricts the type parameter T to types that implement a specific interface,
+            //    allowing access to that interface's members within the class.
+
+            //    public class DataProcessor<T> where T : IDisposable
+            //{
+            //    public void ProcessAndClean(T item)
+            //    {
+            //        item.Dispose();
+            //    }
+            //} 
+            #endregion
 
 
 

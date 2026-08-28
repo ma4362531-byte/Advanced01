@@ -81,6 +81,22 @@ namespace Advanced01
             //} 
             #endregion
 
+            #region Q 5
+
+            // Write a generic method FindMax < T > that finds maximum value.
+
+            //    Note: Requires the where T : IComparable<T>
+            //        constraint to enable comparison operations using .CompareTo().
+
+            //    public static class Utility
+            //{
+            //    public static T FindMax<T>(T a, T b) where T : IComparable<T>
+            //    {
+            //        return a.CompareTo(b) > 0 ? a : b;
+            //    }
+            //} 
+            #endregion
+
 
 
 

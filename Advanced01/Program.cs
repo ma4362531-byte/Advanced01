@@ -241,6 +241,22 @@ namespace Advanced01
 
             #endregion
 
+            #region Q15
+
+            //    What is covariance? Explain the 'out' keyword.
+
+            //        Covariance: Enables using a more derived type than originally specified.It applies exclusively to output values(return types).
+
+            //out Keyword: Applied to a generic type parameter in an interface or delegate to declare it as covariant.
+
+
+            //public interface IProducer<out T>
+            //{
+            //    T Produce(); 
+            //} 
+            #endregion
+
+
 
 
 
@@ -253,5 +269,5 @@ namespace Advanced01
 
 
         }
-    }
+}
 }

@@ -2,9 +2,11 @@
 using System.Collections.ObjectModel;
 using System.Data;
 using System.Data.Common;
+using System.Diagnostics.Metrics;
 using System.Numerics;
 using System.Reflection.Metadata;
 using System.Runtime.Intrinsics.X86;
+using System.Security.Cryptography;
 using System.Timers;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
@@ -302,6 +304,20 @@ namespace Advanced01
 
             #endregion
 
+            #region Q18
+
+            //            //How do static members work in generic types ?
+
+            //            Static fields and methods in a generic class are not shared across different type parameters.
+
+            //Each closed constructed type (e.g., Counter<int> and Counter<string>) gets its own isolated instance of static variables.
+
+            //        public class Counter<T>
+            //        {
+            //            public static int Count;
+            //        }
+
+            #endregion
 
 
 

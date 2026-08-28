@@ -1,4 +1,5 @@
 ﻿using System.Data;
+using System.Data.Common;
 using System.Numerics;
 using System.Reflection.Metadata;
 using System.Runtime.Intrinsics.X86;
@@ -124,6 +125,20 @@ namespace Advanced01
             //    public T Value { get; set; }
             //} 
             #endregion
+
+            #region Q 8
+            // What is the 'class' constraint? Write an example.
+
+            //    where T : class Constraint : Restricts the type parameter T to reference types
+            //    (e.g., string, delegates, array types, or custom classes).
+
+            //    public class ReferenceContainer<T> where T : class
+            //{
+            //    public T Value { get; set; }
+            //} 
+            #endregion
+
+
 
 
 

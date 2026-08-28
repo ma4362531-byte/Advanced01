@@ -207,7 +207,18 @@ namespace Advanced01
             //        } 
             #endregion
 
+            #region Q13
+            //            // What does the 'default' keyword do in generics ?
 
+            //            default Keyword: Evaluates to the default value of a type parameter at runtime:
+
+            //            null for reference types (class).
+
+            //0, 0.0, or bitwise zero representation for value types(struct).
+
+            //            T value = default(T); 
+
+            #endregion
 
 
         }

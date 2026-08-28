@@ -24,8 +24,26 @@ namespace Advanced01
 
             #endregion
 
+            #region Q 2
 
+            //        // Write a generic class Container<T> with Add and Get methods.
 
+            //        public class Container<T>
+            //    { 
+            //        private T _value;
+
+            //    public void Add(T item)
+            //    {
+            //        _value = item;
+            //    }
+
+            //    public T Get()
+            //    {
+            //        return _value;
+            //    }
+
+            //} 
+            #endregion
 
 
 

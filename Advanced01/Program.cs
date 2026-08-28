@@ -319,7 +319,14 @@ namespace Advanced01
 
             #endregion
 
+            #region Q19
+            //    //How can you inherit from a generic class?
 
+            //    public class IntContainer : Container<int> { }
+
+            //public class CustomContainer<T> : Container<T> { }
+
+            #endregion
 
 
 

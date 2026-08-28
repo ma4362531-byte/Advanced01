@@ -168,6 +168,26 @@ namespace Advanced01
             //} 
             #endregion
 
+            #region Q11
+            //    What is the base class constraint? Write an example.
+
+            //    Base Class Constraint: Specifies that the type argument must inherit from a 
+            //    specific base class (or be that base class itself).
+
+            //    public class Entity
+            //{
+            //    public int Id { get; set; }
+            //}
+
+            //public class EntityRepository<T> where T : Entity
+            //{
+            //    public void LogId(T entity)
+            //    {
+            //        Console.WriteLine(entity.Id);
+            //    }
+            //} 
+            #endregion
+
 
 
 

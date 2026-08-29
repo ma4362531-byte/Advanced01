@@ -3,6 +3,7 @@ using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Data;
 using System.Data.Common;
+using System.Diagnostics;
 using System.Diagnostics.Metrics;
 using System.Numerics;
 using System.Reflection.Metadata;
@@ -386,11 +387,42 @@ namespace Advanced01
             //} 
             #endregion
 
+            #region جزء البحث
+
+//            Covariance(out)
+
+//Definition: Enables you to use a more derived type(child class) than originally specified by the generic parameter.
+
+//Direction: Converts from Specific to General(e.g., IEnumerable<Dog> to IEnumerable<Animal>).
+
+//Constraint: The generic type parameter T can only appear in output positions(such as method return types). It cannot be used as an input parameter.
+
+//Primary Use Case: Data projection, read-only collections, and data retrieval interfaces where you only produce or yield data.
+
+//Key Example: IEnumerable<out T>, IReadOnlyCollection<out T>, Func<out TResult>
+
+//Contravariance(in)
+
+//Definition: Enables you to use a more generic(base class) type than originally specified by the generic parameter.
+
+//Direction: Converts from General to Specific (e.g., Action<Animal> to Action<Dog>).
+
+//Constraint: The generic type parameter T can only appear in input positions(such as method parameters). It cannot be used as a return type.
+
+//Primary Use Case: Event handlers, data consumers, and comparison routines where you only process or accept incoming data.
+
+//Key Example: Action<in T>, IComparer<in T>, IEqualityComparer<in T>
+
+
+            #endregion
 
 
 
 
 
-        }
+
+
+
+    }
 }
 }
